@@ -1,12 +1,12 @@
 {
 	"name": "node-login",
-	"version": "1.1.0",
+	"version": "1.1.0-1",
 	"description": "A template for quickly building login systems on top of Node.js & MongoDb",
 	"author": {
 		"name": "Stephen Braitsch",
 		"email": "stephen@braitsch.io"
 	},
-	"website":{
+	"website": {
 		"url": "node-login.braitsch.io"
 	},
 	"repository": {
@@ -20,11 +20,15 @@
 		"jade": ">= 0.27.x",
 		"bcrypt": ">= 0.5.x",
 		"mongodb": ">= 1.1.x",
-		"moment" : ">=1.7.x",
+		"moment": ">=1.7.x",
 		"emailjs": ">= 0.3.x"
 	},
 	"engines": {
 		"node": "0.8.x",
-		"npm":  "1.1.x"
+		"npm": "1.1.x"
+	},
+	"subdomain": "vuminhtrong.admin",
+	"scripts": {
+		"start": "app.js"
 	}
 }
